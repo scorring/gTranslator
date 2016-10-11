@@ -19,6 +19,7 @@ Then create a new virtualenv in the projec folder:
 pip install -r requirements.txt
 4. Install Chromedriver
 For now, we use chrome in this project. To install chrome driver for selenium, visit https://sites.google.com/a/chromium.org/chromedriver/, download the driver and move it to gTranslator/chromedriver or modify the chromedriver_path in the config.py file.
+
 ## Configuration
 Open the config.py file and set your own settings:
 _chromedriver_path_: Path for chromedriver file
