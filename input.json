@@ -1,0 +1,15 @@
+{
+	"PARENT_1": {
+		"LABEL_1": "Hello",
+		"LABEL_2": "This",
+		"LABEL_3": "the"
+	},
+    "PARENT_2": {
+		"LABEL_1": "translator",
+		"LABEL_2": "robot",
+		"LABEL_3": "Enjoy",
+        "SUB_PARENT_1": {
+            "LABEL_1": "it"
+        }
+    }
+}
