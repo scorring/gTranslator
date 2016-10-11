@@ -5,11 +5,8 @@ In the process of the translation of your project, you can use this tool to auto
 
 ## Installation
 1. Clone repository
-
-`git clone https://github.com/scorring/gTranslator.git`
-
-`cd gTranslator`
-
+    `git clone https://github.com/scorring/gTranslator.git`
+    `cd gTranslator`
 2. Create a python virtualenv
 If it is not already installed, install the package python-virtualenv.
 Then create a new virtualenv in the projec folder:
@@ -22,8 +19,12 @@ For now, we use chrome in this project. To install chrome driver for selenium, v
 
 ## Configuration
 Open the config.py file and set your own settings:
-_chromedriver_path_: Path for chromedriver file
-_in_path_: Path for input json file
-_out_path_: Path for output json file
-_in_language_code_: Language for the input json file (default: en)
-_out_language_code_: Language for the output json file (default: fr)
+* _chromedriver_path_: Path for chromedriver file
+* _in_path_: Path for input json file
+* _out_path_: Path for output json file
+* _in_language_code_: Language for the input json file (default: en)
+* _out_language_code_: Language for the output json file (default: fr)
+
+## Run
+`python translator.py`
+The result is saved into out.json by default
