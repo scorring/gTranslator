@@ -5,12 +5,12 @@ In the process of the translation of your project, you can use this tool to auto
 
 ## Installation
 1. Clone repository
-    `git clone https://github.com/scorring/gTranslator.git`
+    `git clone https://github.com/scorring/gTranslator.git` then
     `cd gTranslator`
 2. Create a python virtualenv
 If it is not already installed, install the package python-virtualenv.
 Then create a new virtualenv in the projec folder:
-`virtualenv venv`
+`virtualenv venv` then
 `source venv/bin/activate`
 3. Install requirements
 pip install -r requirements.txt
