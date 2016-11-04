@@ -44,6 +44,8 @@ def introspect(obj, nb_tabs, file):
             driver.get("https://translate.google.fr/#%s/%s/%s" % (config.in_language_code, config.out_language_code, utf8Value))
             time.sleep(1)
             result = driver.find_element_by_id('result_box').text.encode('utf-8')
+            if utf8Value[0].istitle():
+                result = result[0].upper() + result[1:]
             cfg_nb['nb_left'] -= 1
             print "%s -> %s" % (utf8Value, result)
             print "%s words remaining..." % cfg_nb['nb_left']
